@@ -10,9 +10,9 @@ import { TodosService } from './todos.service';
   templateUrl: './todos.component.html',
   styleUrl: './todos.component.css'
 })
+
 export class TodosComponent implements OnInit {
   todos:any[] = [];
-
   private idInicio = 25
   private idFin = 90
 

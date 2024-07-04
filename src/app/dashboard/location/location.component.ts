@@ -10,9 +10,9 @@ import { CommonModule } from '@angular/common';
   templateUrl: './location.component.html',
   styleUrl: './location.component.css'
 })
+
 export class LocationComponent {
   planets:any[] = [];
-
   constructor(private locationService: LocationService){}
 
  ngOnInit(): void {
@@ -20,5 +20,4 @@ export class LocationComponent {
      this.planets = data.results
    });
  }
- 
 }

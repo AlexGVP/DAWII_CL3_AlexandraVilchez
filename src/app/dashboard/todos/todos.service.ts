@@ -5,9 +5,9 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
+
 export class TodosService {
   private apiUrl = "https://jsonplaceholder.typicode.com/todos/"  
-
   constructor(private http: HttpClient) { }
 
   getTodos(): Observable<any>{

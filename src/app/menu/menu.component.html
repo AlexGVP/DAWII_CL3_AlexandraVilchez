@@ -1,0 +1,18 @@
+<div class="container">
+    <mat-card appearance="outlined" class="login-card">
+      <img src="assets/img/logo.png" class="custom-image" alt="Logo">
+      <mat-card-header>
+        <mat-card-title>Menú</mat-card-title>
+      </mat-card-header>
+      <hr/>
+      <mat-card-content>
+          <div class="form">
+            <div class="mat-card-actions">
+              <button mat-raised-button (click)="irLocation()">Location</button>
+              <button mat-raised-button (click)="irTodos()">Todos</button>
+            </div>
+          </div>
+      </mat-card-content>
+    </mat-card>
+
+<router-outlet></router-outlet>
