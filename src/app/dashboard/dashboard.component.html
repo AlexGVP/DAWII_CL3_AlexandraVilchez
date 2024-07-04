@@ -1,1 +1,17 @@
-<p>dashboard works!</p>
+<mat-toolbar class="custom-toolbar">
+    <span (click)="irMenu()"><img src="assets/img/logo.png" class="custom-image" alt="Logo"></span>
+    &nbsp;&nbsp;
+    <button mat-button (click)="irLocation()">Location</button>
+    &nbsp;&nbsp;
+    <button mat-button (click)="irTodos()">Todos</button>
+
+    <span class="example-spacer"></span>
+
+    <button mat-icon-button
+    (click)="irMenu()"
+     class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>logout</mat-icon>
+    </button>
+  </mat-toolbar>
+
+  <router-outlet></router-outlet>

@@ -1,1 +1,12 @@
-<p>location works!</p>
+<mat-card appearance="outlined" class="login-card">
+  <hr/>
+  <mat-card-header class="mat-card-header">
+    <mat-card-title class="mat-card-title">Location</mat-card-title>
+</mat-card-header>
+    <hr/>
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item *ngFor="let planet of planets">{{ planet.name }}
+        </mat-list-item>
+      </mat-list>
+</mat-card-content>

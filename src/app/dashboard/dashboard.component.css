@@ -1,0 +1,21 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar{
+    color: #f9f8f8;
+}
+
+.custom-image {
+    width: 200px;
+    margin: auto;
+}
+
+.custom-toolbar {
+    background-color: #f9f8f8;
+    border-bottom: 1px solid #ddd;
+  }
+
+.mat-icon {
+  color: #08364d;
+}
